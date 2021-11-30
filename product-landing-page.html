@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing page</title>
+    <link rel="stylesheet"   href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous" >
+    <link rel="stylesheet" href="product.css" type="text/css">
+</head>
+<style>
+
+</style>
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div id="header-img">
+                <img class="logo" src="./james-gotech-logo.png" 
+                alt="James Gotech">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-link"><a href="#">Features</a></li>
+                    <li class="nav-link"><a href="#">How It Works</a></li>
+                    <li class="nav-link"><a href="#">Pricing</a></li>
+                    <li class="nav-link"><a href="#"><span>Sign Up</span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section id="info">
+            <h2>High Tech, Quality Accessories</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" 
+                placeholder="Enter your email address" required>
+                <input type="submit" id="submit" class="btn" value="Get Started">
+            </form>
+        </section>
+
+        <div id="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                    <div class="desc">
+                        <h2>Premium Materials</h2>
+                        <p>
+                        Our Tech proucts come in different quality and all at available
+                        prices. see <a href="#">pricing</a> for more details.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                        Logistics are adequately put in place to deliver your goods
+                        a very fast delivery speed.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-notes-medical"></i></div>
+                    <div class="desc">
+                        <h2>Quality Assurance</h2>
+                        <p>
+                        For Every purchase you make, we will ensure there are no 
+                        damges or faults and we will check and test the Product
+                        before handiing over.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe 
+                id="video"
+                height="315"
+                src="https://www.youtube.com/watch?v=_EzmbCuoFcU" 
+                frameborder="0"
+                allowfullscreen
+                ></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product">
+                    <div class="level">Front-end Development</div>
+                    <h2>$1000</h2>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>REACT</li>
+                    </ol>
+                    <button class="btn">SELECT</button>
+                </div>
+                <div class="product">
+                    <div class="level">BACK-END DEVELOPMENT</div>
+                    <h2>$2000</h2>
+                    <ol>
+                        <li>DATABASE DEVELOPMENT</li>
+                        <li>RESTFUL API</li>
+                        <li>WEBSCRAPING</li>
+                        <li>DATA SCIENCE</li>
+                    </ol>
+                    <button class="btn">SELECT</button>
+                </div>
+                <div class="product">
+                    <div class="level">MOBILE APPLICATION DEVELOPMENT</div>
+                    <h2>$3500</h2>
+                    <ol>
+                        <li>SDK DEVELOPMENT</li>
+                        <li>UI/UX DESIGN</li>
+                        <li>ANDRIOD DESIGN</li>
+                        <li>IOS DESIGN</li>
+                    </ol>
+                    <button class="btn">SELECT</button>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <span>Copyright &copy; 2021, James Gotech</span>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
